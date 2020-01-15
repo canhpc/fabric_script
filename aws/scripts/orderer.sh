@@ -1,0 +1,8 @@
+#!/bin/sh
+export PATH=/home/ubuntu/workspace/fabric-samples/bin:$PATH
+export FABRIC_CFG_PATH=/home/ubuntu/workspace/fabric-workdir
+export FABRIC_LOGGING_SPEC=info
+cd $FABRIC_CFG_PATH
+echo $PATH
+echo $FABRIC_CFG_PATH
+nohup orderer &

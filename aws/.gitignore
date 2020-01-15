@@ -1,1 +1,3 @@
-configtx
+crypto-config/*
+channel-artifacts/*
+

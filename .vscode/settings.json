@@ -1,0 +1,6 @@
+{
+    "files.watcherExclude": {
+        "**/channel-artifacts/**": true,
+        "**/crypto-config/**": true
+    }
+}
