@@ -1,9 +1,8 @@
 #!/bin/sh
 #
-REMOTE_HOST=aws2
-FABRIC_CFG_PATH='/home/ubuntu/workspace/fabric-workdir'
+source env.sh
 
 echo 'Copying mychannel.block from '$REMOTE_HOST
-rsync $REMOTE_HOST:$FABRIC_CFG_PATH/mychannel.block ./channel-artifacts/mychannel.block
+rsync $REMOTE_HOST:$FABRIC_CFG_PATH/$CHANNEL_BLOCK_FILE ./channel-artifacts/$CHANNEL_BLOCK_FILE
 
 

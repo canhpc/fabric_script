@@ -10,7 +10,7 @@ else
 fi
 
 export PATH=/home/ubuntu/workspace/fabric-samples/bin:$PATH
-export FABRIC_CFG_PATH=/home/ubuntu/workspace/fabric-workdir
+export FABRIC_CFG_PATH=/home/ubuntu/workspace/fabric
 export FABRIC_LOGGING_SPEC=info
 export CORE_PEER_LOCALMSPID=Org1MSP
 export CORE_PEER_MSPCONFIGPATH=crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp

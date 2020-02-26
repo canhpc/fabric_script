@@ -3,3 +3,17 @@
 13.209.41.150    peer1.org2.example.com
 15.164.100.250   peer2.org2.example.com
 13.125.251.173   orderer.example.com
+
+
+15.164.222.164   peer1.org1.example.com
+13.209.77.41    peer1.org2.example.com
+54.180.155.246   orderer.example.com
+
+
+
+#aws fabric
+54.180.103.27    aws.orderer.example.com     orderer.example.com
+54.180.25.206    aws.peer1.org1.example.com  peer1.org1.example.com
+54.180.91.212    aws.peer1.org2.example.com  peer1.org2.example.com
+52.79.78.29      aws.ca.org1.example.com     ca.org1.example.com
+52.79.240.99     aws.ca.org2.example.com     ca.org2.example.com
